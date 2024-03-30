@@ -4,11 +4,11 @@ This project provides a simple to-do list application using Python FastAPI and M
 
 ## Features: 
 
-- Add Todo's.
-- View Todos.
-- Update Todos.
-- Delete Todos.
-- Mark tasks as completed.
+- Add Todo's
+- View Todos
+- Update Todos
+- Delete Todos
+- Mark Todo's as completed
 
 
 ### Prerequisites
@@ -57,11 +57,11 @@ docker-compose ps -a
 ## Using the App 👽:
 
 **Open your web browser and navigate to:**
-http://localhost:8501 to access the Streamlit interface for your TODO list.
+http://localhost:8501 to access the Streamlit interface for your Todo list.
   
 ## Access the App Components🌎:
 - **Frontend:** http://localhost:8501
-- **Backend:** http://localhost:8000/docs
+- **Backend:** http://localhost:8000/docs  --> to access API of the todo list app.
 
  
 ## Using the Test Script💯:
@@ -72,7 +72,7 @@ This project includes a test script (test.py) in the backend folder for testing 
 ```bash
 docker-compose run --rm backend-test
 ```
-This will execute the tests within a temporary container based on the configuration in docker-compose.yml. Refer to the comments in test.py for more details on how the tests are structured.
+This will execute the tests within a temporary container based on the configuration in docker-compose.yml. 
 
 ## Demo🎥:
 
