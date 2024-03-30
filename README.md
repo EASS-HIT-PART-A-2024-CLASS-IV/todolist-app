@@ -70,8 +70,13 @@ This project includes a test script (test.py) in the backend folder for testing 
 ### Run Tests (using Docker Compose):
 
 ```bash
-docker-compose run --rm backend-test
+docker exec -it  <container_name_or_id> pytest /backend/test.py
 ```
+where docker **<container_name_or_id>** is the backend container name, which you can find out by : 
+**docker-compose ps -a**
+<img width="865" alt="Untitled1" src="https://github.com/EASS-HIT-PART-A-2024-CLASS-IV/todolist-app/assets/88145461/566242fe-e8ff-4329-b04c-6d1eca2ca1dc">
+
+
 This will execute the tests within a temporary container based on the configuration in docker-compose.yml. 
 
 ## Demo🎥:
