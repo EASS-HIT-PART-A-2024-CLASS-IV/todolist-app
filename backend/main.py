@@ -46,3 +46,6 @@ def delete_todo_item(category: str, task_id: int):
     if not delete_todo(category, task_id):
         raise HTTPException(status_code=404, detail="Task not found")
     return {"success": "Task deleted"}
+
+
+##second try
