@@ -37,7 +37,7 @@ with st.form("add_todo", clear_on_submit=True):
             time.sleep(2)
             st.success("TODO added successfully!")
             st.session_state.update_triggered = True
-            st.rerun()
+            st.rerun() #refresh page
         else:
             st.error("Failed to add TODO")
 
@@ -70,7 +70,7 @@ with st.expander("✏️ Update/Delete TODO ✏️"):
                 st.success(f"TODO {task_id} updated!")
                 time.sleep(2)
                 st.session_state.update_triggered = True
-                st.rerun() #refresh
+                st.rerun() ##refresh page
             else:
                 st.error("Failed to update TODO. Please check that the task ID and category are correct.")
 
@@ -82,6 +82,6 @@ with st.expander("✏️ Update/Delete TODO ✏️"):
                 st.success(f"TODO {task_id} deleted!")
                 time.sleep(2)
                 st.session_state.update_triggered = True
-                st.rerun() #refresh
+                st.rerun() #refresh page
             else:
                 st.error("Failed to delete TODO. Please check the task ID and category.")

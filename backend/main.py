@@ -48,4 +48,3 @@ def delete_todo_item(category: str, task_id: int):
     return {"success": "Task deleted"}
 
 
-##second try
