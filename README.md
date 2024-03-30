@@ -74,4 +74,10 @@ docker-compose run --rm backend-test
 ```
 This will execute the tests within a temporary container based on the configuration in docker-compose.yml. Refer to the comments in test.py for more details on how the tests are structured.
 
+## Demo:
+
+https://github.com/EASS-HIT-PART-A-2024-CLASS-IV/todolist-app/assets/88145461/2f99428c-e5a1-46a0-81b2-55843493202f
+
+
+
 
