@@ -34,6 +34,8 @@ This project provides a simple to-do list application using Python FastAPI and M
 
 ```bash
 git clone https://github.com/EASS-HIT-PART-A-2024-CLASS-IV/todolist-app.git
+```
+```bash
 cd todolist-app
 ```
 
