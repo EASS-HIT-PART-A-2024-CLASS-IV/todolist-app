@@ -52,15 +52,10 @@ docker-compose up -d
 docker-compose ps -a
 ```
 
-
-After starting the services, the ArtGallery application should be accessible through your web browser:
-
-- **Frontend:** http://localhost:5173
-- **Backend:** http://localhost:8000
-
-
 ## Using the App:
-Open your web browser and navigate to http://localhost:8501 to access the Streamlit interface for your TODO list.
+
+**Open your web browser and navigate to:**
+http://localhost:8501 to access the Streamlit interface for your TODO list.
   
 ## Access the App:
 - **Frontend:** http://localhost:8501
