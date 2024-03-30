@@ -28,7 +28,7 @@ This project provides a simple to-do list application using Python FastAPI and M
 
 
 
-### Installation
+## ✨Installation✨:
 
 1. **Clone this repository**:
 
@@ -54,17 +54,17 @@ docker-compose up -d
 docker-compose ps -a
 ```
 
-## Using the App:
+## Using the App 👽:
 
 **Open your web browser and navigate to:**
 http://localhost:8501 to access the Streamlit interface for your TODO list.
   
-## Access the App:
+## Access the App Components🌎:
 - **Frontend:** http://localhost:8501
 - **Backend:** http://localhost:8000/docs
 
  
-## Using the Test Script:
+## Using the Test Script💯:
 This project includes a test script (test.py) in the backend folder for testing the functionality of the backend API.
 
 ### Run Tests (using Docker Compose):
@@ -74,7 +74,7 @@ docker-compose run --rm backend-test
 ```
 This will execute the tests within a temporary container based on the configuration in docker-compose.yml. Refer to the comments in test.py for more details on how the tests are structured.
 
-## Demo:
+## Demo🎥:
 
 https://github.com/EASS-HIT-PART-A-2024-CLASS-IV/todolist-app/assets/88145461/2f99428c-e5a1-46a0-81b2-55843493202f
 
