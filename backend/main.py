@@ -7,7 +7,7 @@ from mongodb import create_todo, get_todos, update_todo, delete_todo
 
 app = FastAPI()
 
-#components of a todo
+#components of a TODO
 class Todo(BaseModel):
     task: str
     id: int

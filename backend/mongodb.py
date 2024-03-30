@@ -1,6 +1,8 @@
 from pymongo import MongoClient
 from typing import Dict
 
+#DB connection data
+
 client = MongoClient("mongodb://db:27017")
 db = client["todo-db"]
 collection = db["todos"]
